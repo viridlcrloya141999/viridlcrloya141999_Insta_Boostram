@@ -12,7 +12,6 @@
 </head>
 
 <body>
-  
   <!-- NAVBAR -->
   <nav class="navbar navbar-light bg-light py-3">
     <div class="container-fluid">
@@ -28,7 +27,7 @@
           </button>
           <!-- Dropdown Ajustes -->
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
               aria-expanded="false">
               <i class="fa-solid fa-gear"></i>
             </button>
@@ -73,7 +72,7 @@
   </div>
 
   <!-- Cambio de Ventanas -->
-  <div>
+  
     <div class="container-fluid p-2">
       <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -86,84 +85,50 @@
                     role="tab" aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i></a>
         </li>
       </ul>
-    </div>
+    
 
     <!-- Contenido de las Tabs -->
     <div class="tab-content" id="myTabContent">
       <!-- Tab Fotos -->
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
         <div class="row">
-          <div class="col-4 p-1">
-            <img src="malintzin.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Malintzin">
-          </div>
-          <div class="col-4 p-1">
-            <img src="floramarilla.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;"
-              alt="Flor amarilla">
-          </div>
-          <div class="col-4 p-1">
-            <img src="single.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Paisaje">
-          </div>
-        </div>
-      </div>
-      <div class="tab-content" id="myTabContent">
-        <!-- Tab Fotos -->
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="col-4 p-1"><img src="malintzin.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Malintzin"></div>
+          <div class="col-4 p-1"><img src="floramarilla.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;"alt="Flor amarilla"></div>
+          <div class="col-4 p-1"><img src="single.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Paisaje"></div>
+        </div>     
           <div class="row">
-            <div class="col-4 p-1">
-              <img src="dog.jpeg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Malintzin">
-            </div>
-            <div class="col-4 p-1">
-              <img src="party.jpeg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;"
-                alt="Flor amarilla">
-            </div>
-            <div class="col-4 p-1">
-              <img src="messi.webp" class="img-fluid w-100"
-                style="height: 30vw; object-fit: cover;" alt="Paisaje">
-            </div>
+            <div class="col-4 p-1"><img src="dog.jpeg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Malintzin"></div>
+            <div class="col-4 p-1"><img src="party.jpeg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Flor amarilla"></div>
+            <div class="col-4 p-1"><img src="messi.webp" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Paisaje"></div>
           </div>
-        </div>
-        <div class="tab-content" id="myTabContent">
-          <!-- Tab Fotos -->
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <div class="row">
-              <div class="col-4 p-1">
-                <img src="flores.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Malintzin">
-              </div>
-              <div class="col-4 p-1">
-                <img src="cablebus.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;"
-                  alt="Flor amarilla">
-              </div>
-              <div class="col-4 p-1">
-                <img src="graduation.jpeg" class="img-fluid w-100"
-                  style="height: 30vw; object-fit: cover;" alt="Paisaje">
-              </div>
+              <div class="col-4 p-1"><img src="flores.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Malintzin"></div>
+              <div class="col-4 p-1"><img src="cablebus.jpg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Flor amarilla"></div>
+              <div class="col-4 p-1"><img src="graduation.jpeg" class="img-fluid w-100" style="height: 30vw; object-fit: cover;" alt="Paisaje"></div>
             </div>
           </div>
+
       <!-- Tab Perfil -->
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <div class="tab-pane fade overflow-hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
         <div class="row my-4">
           <div class="col-6 mx-auto border rounded p-0">
             <div class="d-flex p-2">
               <div class="w-100 fs-4">Teleferico</div>
               <small class="align-bottom">02/9</small>
             </div>
-            <img src="cablebus.jpg" class="img-fluid w-100" style="object-fit: cover;" alt="Perro Spark">
+            <img style="object-fit: cover;"src="cablebus.jpg" class="img-fluid w-100 col-12" alt="">
             <div class="p-2">
               <strong>204 Me gusta</strong>
               <p>Una gran foto para publicar en Instagram.</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
- 
 
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-    <div class="row my-4">
-      <div class="col-6 mx-auto border rounded p-0">
-        <div class="d-flex p-2">
+        <div class="row my-4">
+          <div class="col-6 mx-auto border rounded p-0">
+            <div class="d-flex p-2">
           <div class="w-100 fs-4">Teleferico</div>
-          <small class="align-bottom">04/09</small>
+          <small >04/09</small>
         </div>
         <img src="single.jpg" class="img-fluid w-100" style="object-fit: cover;" alt="">
         <div class="p-2">
@@ -172,6 +137,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </div>
 </div>
